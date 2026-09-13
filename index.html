@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cassie's Element</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f7f5f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2933;
+    }
+    .card {
+      width: min(92vw, 900px);
+      background: white;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,.12);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: min(70vh, 620px);
+      object-fit: cover;
+    }
+    .caption {
+      padding: 20px 24px 24px;
+      text-align: center;
+      font-size: clamp(1.1rem, 2vw, 1.5rem);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img
+      src="https://images.unsplash.com/photo-1720001586147-0bfee9e5dba2?auto=format&fit=crop&w=1800&q=85"
+      alt="Bright orange goldfish swimming in an aquarium"
+    />
+    <div class="caption">🐟 welcome to cassieselement.com</div>
+  </main>
+</body>
+</html>
